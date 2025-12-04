@@ -37,6 +37,6 @@ Designed in KiCad
 5. https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 
 # Developer note:
-If you do anufacture this PCB, when you get it for the first time, it is necessary to do the initialization boot sequence when esp is powered.
+If you do manufacture this PCB, when you get it for the first time, it is necessary to do the initialization boot sequence when esp is powered.
 hold boot> click reset once> release boot
 This allows ESP to go into coding mode where you can upload code into your board.
