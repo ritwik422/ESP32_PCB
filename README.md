@@ -24,3 +24,19 @@ We know ESP are the go-to microcontrollers when we want speed and integrated Wif
 3. Texas Instruments tlv758p
 4. USB-C 2.0
 
+# Schematic
+Designed in KiCad
+<img width="1568" height="1011" alt="image" src="https://github.com/user-attachments/assets/2fb2ba4b-c398-4ff3-95d0-4a56512b38fe" />
+
+
+# resources I used for this project:
+1. https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/esp-hardware-design-guidelines-en-master-esp32s3.pdf
+2. https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html
+3. https://www.ti.com/lit/ds/symlink/tlv758p.pdf?ts=1764750861284
+4. https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf
+5. https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+
+# Developer note:
+If you do anufacture this PCB, when you get it for the first time, it is necessary to do the initialization boot sequence when esp is powered.
+hold boot> click reset once> release boot
+This allows ESP to go into coding mode where you can upload code into your board.
