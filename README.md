@@ -38,6 +38,9 @@ Designed in KiCad
 4. https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf
 5. https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 
+# Credits & Inspiration
+This project was built as an improved version of an existing tutorial/project by **John Teel**, Founder / Engineer at [Predictable Designs](https://predictabledesigns.com/).
+
 # Developer note:
 If you do manufacture this PCB, when you get it for the first time, it is necessary to do the initialization boot sequence when esp is powered.
 hold boot> click reset once> release boot
