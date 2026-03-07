@@ -1,0 +1,12 @@
+# KiCad temporary and backup files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+
+# Other
+.DS_Store
+Thumbs.db
